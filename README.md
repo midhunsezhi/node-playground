@@ -14,3 +14,10 @@ This repo showcases various functionalities of node. Each folder shows a particu
  - handle read and write streams
  - synchronous file acess
  - error handling
+
+
+### socket-communication
+
+* [basic-tcp-server]
+ - set up a basic tcp socket (useful for communication between networked  computers)
+ - working with connection object to get the information from server to client
