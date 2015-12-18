@@ -21,3 +21,7 @@ This repo showcases various functionalities of node. Each folder shows a particu
 * [basic-tcp-server]
  - set up a basic tcp socket (useful for communication between networked  computers)
  - working with connection object to get the information from server to client
+
+* [net-watcher-json-client.js, net-watcher-json-service.js, net-watcher-json-test-service.js]
+ - create a basic client server app which communicates using JSON messaging protocol
+ - write a test to check the service in case of broken messages
