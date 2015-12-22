@@ -24,4 +24,8 @@ This repo showcases various functionalities of node. Each folder shows a particu
 
 * [net-watcher-json-client.js, net-watcher-json-service.js, net-watcher-json-test-service.js]
  - create a basic client server app which communicates using JSON messaging protocol
- - write a test to check the service in case of broken messages
+ - write a test service to check the server in case of broken messages
+ - write a custom Node module and extend Node core classes, including EventEmitter
+ - write a LDJ(Line delimitted JSON) module to process the incoming broken data chunks and emit a single data buffer for the client to process 
+
+
