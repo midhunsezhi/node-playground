@@ -31,4 +31,10 @@ This repo showcases various functionalities of node. Each folder shows a particu
  - develop a LDJ(Line delimitted JSON) module to process the incoming broken data chunks 
  - emit a single JSON message to the client
 
+### messaging-ZeroMQ
 
+* [zmq-pub.js, zmq-sub.js]
+ - a simple tcp messaging illustration using PUB/SUB pattern
+
+* [zmq-rep.js, zmq-req.js]
+ - responding to request using REQ/REP pattern
