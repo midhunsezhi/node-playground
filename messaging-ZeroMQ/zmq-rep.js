@@ -11,7 +11,7 @@ responder.on('message', function(data){
   console.log('got request for '+ request.path);
 
   fs.readFile(request.path, function(err,data){
-    console.log('sending response content');
+    console.log('sending response content from process '+ process.pid);
     responder.send(JSON.stringify({
       content: data.toString(),
       pid: process.pid

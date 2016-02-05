@@ -38,3 +38,7 @@ This repo showcases various functionalities of node. Each folder shows a particu
 
 * [zmq-rep.js, zmq-req.js]
  - responding to request using REQ/REP pattern
+
+* [zmq-cluster-rep.js, zmq-req.js]
+ - responding to multiple requests by using cluster module.
+ - load balancing between multiple clusters using DEALER and ROUTER sockets of zmq.
