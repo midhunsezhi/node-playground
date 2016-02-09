@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xml:base="http://www.gutenberg.org/"
+  xmlns:dcam="http://purl.org/dc/dcam/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:pgterms="http://www.gutenberg.org/2009/pgterms/"
+  xmlns:cc="http://web.resource.org/cc/"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+>
+  <pgterms:ebook rdf:about="ebooks/7810">
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/7810.kindle.images">
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N2dabc191ee534bc5a5cba765cb2ba816">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/7810"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-04T05:00:46.295021</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1011345</dcterms:extent>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/7810/7810-8.txt">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">611998</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/7810"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Ne86fbac3911944f6b8309771f3889fec">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=iso-8859-1</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-04-10T10:17:46</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/7810.epub.noimages">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">253089</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Ncff46d6e66c14404ac0080264757d770">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/7810"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-04T05:00:43.762134</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="Nb9be70207a414f79a3d085aaaf412e19">
+        <rdf:value>Tales -- Germany</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:license rdf:resource="license"/>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/7810.kindle.noimages">
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nfda556db9b4e4233a7fdec172d4416be">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/7810"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-04T05:00:48.730931</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1011337</dcterms:extent>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/7810/7810-8.zip">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-04-10T10:18:04</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N9b7080b23be4428a865024d659a362e5">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">231820</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/7810"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Ndb7334092c5741baa99b22e8e4ec5d63">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=iso-8859-1</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:rights>Public domain in the USA.</dcterms:rights>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/7810.epub.images">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-04T05:00:43.434144</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N18375074115543319e5094c9d38038d6">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/7810"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">253089</dcterms:extent>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/7810.rdf">
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nf4676f9fa1e54a94bd94c207b8cea871">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/rdf+xml</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/7810"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-04T05:00:48.922909</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16850</dcterms:extent>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/7810.html.images">
+        <dcterms:isFormatOf rdf:resource="ebooks/7810"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-04T05:00:42.554179</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nfda6d2d910ad4f1493254c119f04e1e5">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">647365</dcterms:extent>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <marcrel:com>
+      <pgterms:agent rdf:about="2009/agents/2538">
+        <pgterms:name>Hebel, Johann Peter</pgterms:name>
+        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1826</pgterms:deathdate>
+        <pgterms:webpage rdf:resource="http://en.wikipedia.org/wiki/Johann_Peter_Hebel"/>
+        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1760</pgterms:birthdate>
+      </pgterms:agent>
+    </marcrel:com>
+    <dcterms:publisher>Project Gutenberg</dcterms:publisher>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/7810.txt.utf-8">
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nc074286105ee426599200715174aa718">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/7810"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">617813</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-04T05:00:41.343234</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:language>
+      <rdf:Description rdf:nodeID="N6eea941b40994499953790a58b68c394">
+        <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">de</rdf:value>
+      </rdf:Description>
+    </dcterms:language>
+    <dcterms:tableOfContents>Abendlied wenn man aus dem Wirtshaus geht&#13;
+Baumzucht&#13;
+Bequeme Schiffahrt, wer's dafür halten will&#13;
+Blutbad in Neuburg am Rhein&#13;
+Böser Markt&#13;
+Brassenheimer Siegesnachrichten vom Jahre 1813&#13;
+Brennende Menschen&#13;
+Brotlose Kunst&#13;
+Dankbarkeit&#13;
+Das Bettlerkind&#13;
+Das Blendwerk&#13;
+Das Bombardement von Kopenhagen&#13;
+Das Branntweingläslein&#13;
+Das fremde Kind&#13;
+Das letzte Wort&#13;
+Das Mittagessen im Hof&#13;
+Das schlaue Mädchen&#13;
+Das seltsame Rezept&#13;
+Das Vivat der Königin&#13;
+Das wohlbezahlte Gespenst&#13;
+Das wohlfeile Mittagessen&#13;
+Denkwürdigkeiten aus dem Morgenlande&#13;
+Der Barbierjunge von Segringen&#13;
+Der betrogene Krämer&#13;
+Der Bock&#13;
+Der falsche Edelstein&#13;
+Der fechtende Handwerksbursche in Anklam&#13;
+Der fremde Herr&#13;
+Der Fremdling in Memel&#13;
+Der fromme Rat&#13;
+Der Furtwanger in Philippsburg&#13;
+Der geduldige Mann&#13;
+Der geheilte Patient&#13;
+Der geheilte Patient&#13;
+Der Generalfeldmarschall Suwarow&#13;
+Der geschlossene Magen&#13;
+Der grosse Sanhedrin zu Paris&#13;
+Der grosse Schwimmer&#13;
+Der Handschuhhändler&#13;
+Der Heiner und der Brassenheimer Müller&#13;
+Der Herr Graf&#13;
+Der Herr Wunderlich&#13;
+Der Husar in Neisse&#13;
+Der kann Deutsch&#13;
+Der kluge Richter&#13;
+Der kluge Sultan&#13;
+Der Kommandant und die badischen Jäger in Hersfeld&#13;
+Der Lehrjunge&#13;
+Der listige Kaufherr&#13;
+Der listige Quäker&#13;
+Der listige Steiermarker&#13;
+Der Prozess ohne Gesetz&#13;
+Der Rekrut&#13;
+Der Rekrut&#13;
+Der schlaue Husar&#13;
+Der schlaue Mann&#13;
+Der schlaue Pilgrim&#13;
+Der Schneider in Pensa&#13;
+Der Schneider in Pensa&#13;
+Der schwarze Mann in der weissen Wolke&#13;
+Der sicherste Weg&#13;
+Der silberne Löffel&#13;
+Der sinnreiche Bettler&#13;
+Der Star von Segringen&#13;
+Der Talhauser Galgen&#13;
+Der unschuldig Gehenkte&#13;
+Der Vater und der Sohn&#13;
+Der verachtete Rat&#13;
+Der verwegene Hofnarr&#13;
+Der vorsichtige Träumer&#13;
+Der Wasserträger&#13;
+Der Wegweiser&#13;
+Der Wettermacher&#13;
+Der wohlbezahlte Spassvogel&#13;
+Der Wolkenbruch in Türkheim&#13;
+Der Zahnarzt&#13;
+Der Zirkelschmied&#13;
+Des Dieben Antwort&#13;
+Des Seilers Antwort&#13;
+Die Bekehrung&#13;
+Die Besatzung von Oggersheim&#13;
+Die drei Diebe&#13;
+Die falsche Schätzung&#13;
+Die gute Mutter&#13;
+Die lachenden Jungfrauen&#13;
+Die leichteste Todesstrafe&#13;
+Die nasse Schlittenfahrt&#13;
+Die Ohrfeige&#13;
+Die Ohrfeige&#13;
+Die Probe&#13;
+Die Raben&#13;
+Die Schlafkameraden&#13;
+Die Schmachschrift&#13;
+Die Tabaksdose&#13;
+Die Wachtel&#13;
+Die Wachtel&#13;
+Die Weizenblüte&#13;
+Die zwei Postillione&#13;
+Drei Worte&#13;
+Drei Wünsche&#13;
+Drei Wünsche&#13;
+Ein gutes Rezept&#13;
+Ein Hausmittel&#13;
+Ein teurer Kopf und ein wohlfeiler&#13;
+Ein Wort gibt das andere&#13;
+Eine merkwürdige Abbitte&#13;
+Eine seltsame, jedoch wahrhafte Geschichte&#13;
+Eine sonderbare Wirtszeche&#13;
+Einer Edelfrau schlaflose Nacht&#13;
+Einer oder der andere&#13;
+Einfältiger Mensch in Mailand&#13;
+Einträglicher Rätselhandel&#13;
+Erinnerung an die Kriegszeit&#13;
+Etwas aus der Türkei&#13;
+Farbenspiel&#13;
+Franz Ignaz Narocki&#13;
+Franziska&#13;
+Geschwinde Reise&#13;
+Gleiches mit Gleichem&#13;
+Glück im Unglück&#13;
+Glück im Unglück&#13;
+glücklich über die Grenzen kam&#13;
+Gute Antwort&#13;
+Gute Geduld&#13;
+Gutes Wort, böse Tat&#13;
+Heimliche Enthauptung&#13;
+Herr Charles (Eine wahre Geschichte)&#13;
+Hilfe in der Not&#13;
+Hochzeit auf der Schildwache&#13;
+Ist der Mensch ein wunderliches Geschöpf&#13;
+Jakob Humbel&#13;
+Kaiser Napoleon und die Obstfrau in Brienne&#13;
+Kannitverstan&#13;
+Kindesdank und Undank&#13;
+König Friedrich und sein Nachbar&#13;
+König Friedrichs Leibhusar&#13;
+Lange Kriegsfuhr&#13;
+List gegen List&#13;
+Mancherlei gute Lehren 1&#13;
+Mancherlei gute Lehren 2&#13;
+Mancherlei gute Lehren 3&#13;
+Mancherlei gute Lehren 4&#13;
+Mancherlei gute Lehren 5&#13;
+Mancherlei gute Lehren 6&#13;
+Mancherlei gute Lehren 7&#13;
+Mancherlei gute Lehren 8&#13;
+Mancherlei gute Lehren 9&#13;
+Mancherlei gute Lehren 10&#13;
+Mancherlei gute Lehren 11&#13;
+Mancherlei gute Lehren 12&#13;
+Merkwürdige Gespenstergeschichte&#13;
+Merkwürdige Schicksale eines jungen Engländers&#13;
+Merkwürdiges Rechnungsexempel 5&#13;
+Merkwürdiges Rechnungsexempel 6&#13;
+Missverstand&#13;
+Missverstand&#13;
+Mittel gegen Zank und Schläge&#13;
+Mohammed&#13;
+Moses Mendelssohn&#13;
+Pieve&#13;
+Reise nach Frankfurt&#13;
+Rettung einer Offiziersfrau&#13;
+Rettung vom Hochgericht&#13;
+Schlechter Gewinn&#13;
+Schlechter Lohn&#13;
+Schreckliche Unglücksfälle in der Schweiz&#13;
+Seinesgleichen&#13;
+Seltene Liebe&#13;
+Seltsame Ehescheidung&#13;
+Seltsamer Spazierritt&#13;
+Streich spielen&#13;
+Suwarow&#13;
+Teure Eier&#13;
+Teures Spässlein&#13;
+Tod vor Schrecken&#13;
+Unglück der Stadt Leiden&#13;
+Unglück in Kopenhagen&#13;
+Untreue schlägt den eigenen Herrn&#13;
+Unverhofftes Wiedersehen&#13;
+Unverhofftes Wiedersehen&#13;
+Vereitelte Rachsucht (Eine wahre Geschichte)&#13;
+Verloren oder gefunden&#13;
+Wasserläufer&#13;
+Wie der Zundelfrieder eines Tages aus dem Zuchthaus entwich und&#13;
+Wie der Zundelfrieder und sein Bruder dem roten Dieter abermal einen&#13;
+Wie einmal ein schönes Ross um fünf Prügel feil gewesen ist&#13;
+Wie man aus Barmherzigkeit rasiert wird&#13;
+Wie man in den Wald schreit, also schreit es daraus&#13;
+Wie sich der Zundelfrieder hat beritten gemacht&#13;
+Willige Rechtspflege&#13;
+Willige Rechtspflege&#13;
+Zwei Erzählungen&#13;
+Zwei Gehilfen des Hausfreunds&#13;
+Zwei honette Kaufleute&#13;
+Zwei Kriegsgefangene in Bobruisk&#13;
+Zwei Sprichwörter&#13;
+Zwei Weissagungen</dcterms:tableOfContents>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="Nf25563af6f1c49ed81351b7b3662ff2b">
+        <rdf:value>PT</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
+      </rdf:Description>
+    </dcterms:subject>
+    <pgterms:bookshelf>
+      <rdf:Description rdf:nodeID="Nc01cd966611e4b2e809bd89258d6d83f">
+        <rdf:value>DE Prosa</rdf:value>
+        <dcam:memberOf rdf:resource="2009/pgterms/Bookshelf"/>
+      </rdf:Description>
+    </pgterms:bookshelf>
+    <dcterms:type>
+      <rdf:Description rdf:nodeID="N9a3f88763cb54f7b9f4419b6a6624b0a">
+        <rdf:value>Text</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/DCMIType"/>
+      </rdf:Description>
+    </dcterms:type>
+    <dcterms:title>Schatzkästlein des rheinischen Hausfreundes&#13;
+Eine Auswahl aus verschiedenen Quellen</dcterms:title>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/7810.html.noimages">
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nd16cc710fa4c47c19a1c2aa4aab77b03">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">647365</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-04T05:00:42.829181</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/7810"/>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2005-04-01</dcterms:issued>
+    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">60</pgterms:downloads>
+  </pgterms:ebook>
+  <cc:Work rdf:about="">
+    <rdfs:comment>Archives containing the RDF files for *all* our books can be downloaded at
+            http://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog</rdfs:comment>
+    <cc:license rdf:resource="http://www.gnu.org/licenses/gpl.html"/>
+  </cc:Work>
+  <rdf:Description rdf:about="http://en.wikipedia.org/wiki/Johann_Peter_Hebel">
+    <dcterms:description>Wikipedia</dcterms:description>
+  </rdf:Description>
+</rdf:RDF>
